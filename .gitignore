@@ -1,0 +1,39 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.tar.gz
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime data and generated outputs
+api/uploads/
+api/results/
+api/tasks/
+api/workspace/
+api/workflow_output/
+uploads/
+workflow_output/
+model_comparison/
+workspace/
+
+# Model artifacts
+*.joblib
+dynamics/artifacts/
+soft_sensor/artifacts/
+
+# Local backups and temp files
+*.backup
+*.bak
